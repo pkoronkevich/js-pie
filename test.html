@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<textarea cols = 100 rows = 25 id = "input" value = "">
+</textarea>
+
+
+<button onclick="displayText()">Type Check</button>
+
+<p id="text"></p>
+
+<script>
+function displayText() {
+    var x = document.getElementById("input").value;
+    document.getElementById("text").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
